@@ -1,0 +1,240 @@
+
+/* Reset CSS Finish */
+
+.full-page{
+  height:100vh;
+  background:#ECF2FF;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.main-div{
+  width:736px;
+  height:512px;
+  background:#ffffff;
+  box-shadow: 1px 4px 20px 3px rgba(61, 108, 236, 0.15);
+border-radius: 32px;
+  display:flex;
+ 
+}
+
+.first-blue-div{
+  width:368px;
+ 
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+
+  border-radius:inherit;
+
+}
+
+.content{
+  font-family: 'Hanken Grotesk', sans-serif;
+  color:#CAC9FF;
+  width:260px;
+  margin: 0px auto;
+  padding: 36px 54px 48px 54px;
+  text-align:center;
+  font-style: normal;
+  font-weight: 700;
+  
+}
+
+.ur-result{
+
+  font-size: 24px;
+  line-height: 31px;
+  padding-bottom:35px;
+}
+
+/* For score circle*/
+.circle-shape{
+    padding-bottom:28px;
+}
+
+.score-circle{
+  width:200px;
+  height:200px;
+  /* Circle banane k liye border-radius*/
+  border-radius:50%;
+  margin: 0px auto;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+
+}
+
+.main-score .score{
+  font-weight: 800;
+font-size: 72px;
+line-height: 72px;
+  color:#ffffff;
+}
+.main-score .out-of{
+  font-size: 18px;
+line-height: 23px;
+
+/* Light Blue */
+
+color: #CAC9FF;
+
+}
+.great-n-para .great-h2{
+  color:#ffffff;
+  font-size: 32px;
+  line-height: 42px;
+  padding-bottom:14px;
+}
+.great-para{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  padding-bottom:10px;
+
+}
+
+
+/* CSS for Second child of main-div*/
+
+
+.second-white-div{
+  width:368px;
+  height:inherit;
+  
+  border-radius:inherit;
+}
+
+.second-white-div .sec-content
+{
+  
+  width: 288px;
+  
+  margin : 38px 40px 46px 40px;
+}
+
+.div-summary{
+  padding-bottom:28px;
+  font-size: 24px;
+line-height: 31px;
+
+/* Dark Navy */
+
+color: #303B59;
+}
+.sd-first{
+ 
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+border-radius: 12px;
+}
+.sd-sec{
+  
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+border-radius: 12px;
+}
+.sd-third{
+ 
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+border-radius: 12px;
+}
+.sd-four{
+
+ background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+border-radius: 12px;
+}
+
+.score-details > div{
+  margin-bottom:16px;
+}
+.btn{
+    padding-top: 25px;
+}
+
+.cnfrm-btn{
+background: #303B59;
+  color:#ffffff;
+    border-radius: 128px;
+    /* height: 56px; */
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 0px;
+  font-size: 18px;
+line-height: 23px;
+  
+}
+
+.cnfrm-btn:active{
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
+.details-content{
+  margin:0px 16px;
+  padding: 18px 0px;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-text{
+  display:flex;
+  align-items:center;
+}
+.icon-text h4{
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+  margin-left: 12px;
+}
+
+.sd-first .icon-text h4{
+  /* Red */ 
+  color: #FF5555;
+}
+.sd-sec .icon-text h4{
+  color: #FFB21E;
+}
+.sd-third .icon-text h4{
+  color: #00BB8F;
+}
+.sd-four .icon-text h4{
+  color: #1125D6;
+}
+.marks-got{
+  font-size: 18px;
+line-height: 23px;
+  color: #303B59;
+}
+
+.hundred{
+  font-size: 18px;
+line-height: 23px;
+
+
+/* Dark Navy */
+
+color: #303B59;
+
+opacity: 0.5;
+}
+
+ @media screen and (max-width: 480px) {
+ .full-page{
+    height: auto;
+    background:#ffffff;
+
+ }
+ .main-div{
+      width: auto;
+      flex-direction: column;
+      box-shadow: none;
+ }
+ .sd-sec {
+    background: #ffad1717;}
+    .sd-four {
+    background: #1125d60d;}
+}
+.sd-third {
+    background: #00bb8014;}
